@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: chaspy/github-action-promote-member-to-team-maintainer
+      - uses: chaspy/github-action-promote-member-to-team-maintainer@main
         with:
           github_token: ${{ secrets.TEST_PROMOTE_MEMBER_ACTION}}
           user: ${{ github.event.inputs.user}} 
