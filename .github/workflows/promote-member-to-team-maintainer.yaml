@@ -20,7 +20,7 @@ jobs:
     env:
       ImageOS: ubuntu20
     steps:
-      - uses: chaspy/github-action-promote-member-to-team-maintainer@v1.0.1
+      - uses: chaspy/github-action-promote-member-to-team-maintainer@v1.0.2
         with:
           github_token: ${{ secrets.TEST_PROMOTE_MEMBER_ACTION}}
           user: ${{ github.event.inputs.user}} 
